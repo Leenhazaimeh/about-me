@@ -82,3 +82,4 @@ switch (answer5) {
         alert ("yes , I like both");
         break;
 }
+alert("nice to meet you-" +yourname)
