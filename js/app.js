@@ -122,7 +122,7 @@ else if (mytall <150){
 
   let myluckynum = ['8','7','2'];
   let ans = prompt ('what is my lucky numbers?');
-  for(let j=0;j<6;j++){
+  for(let j=1;j<6;j++){
     
 
       for (let i =0;i<myluckynum.length;i++){
