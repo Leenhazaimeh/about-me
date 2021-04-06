@@ -1,12 +1,14 @@
   'use strict';
+
 alert ("Hello  ");
 let yourname =prompt("what is your name pleas?");
 //console.log("welcome"+ yourname);
 alert ("welcome _"+ yourname);
 
 alert ("let me tell you about who I am....by gussing game :)");
-alert ("do you think you are good at guss !");
+
 alert("lets start use only yes / no or y/n");
+let scour =0;
 let answer1 =prompt ("do you think I am older than you ?" );
 //console.log("the answer for Q1 :"+ "my old is 26 ");
 answer1=answer1.toLowerCase();
@@ -19,6 +21,7 @@ switch (answer1) {
     case 'no':
         case 'n':
         alert("so you are above than 26 years ");
+        scour++;
         break;
 }
 
@@ -29,12 +32,13 @@ answer2=answer2.toLowerCase();
 switch (answer2) {
     case 'yes':
         case 'y':
-        alert("yes that's rghit I am marrid from 4 years");
+        alert("NO I am not singel :D");
         break;
 
     case 'no':
         case 'n':
-        alert("NO I am not singel :D");
+        alert("yes that's rghit I am marrid from 4 years:D");
+        scour++;
         break;
 }
 
@@ -50,7 +54,8 @@ switch (answer3) {
 
   case 'yes':
       case 'y':
-        alert("yes I have 2 childs")
+        alert("yes I have 2 childs");
+        scour++;
         break;
 }
 
@@ -66,6 +71,7 @@ switch (answer4) {
     case 'yes':
         case 'y':
         alert ("YES tow beautiful girls");
+        scour++;
         break;
 }
 let answer5 =prompt ("do you think I prefares shawerma on the pitza?")
@@ -75,11 +81,76 @@ switch (answer5) {
     case'yes':
     case 'y':
         alert("yes , I  like both ;D");
+        scour++;
         break;
 
     case 'no':
         case 'n':
         alert ("yes , I like both");
+      
         break;
 }
-alert("nice to meet you-" +yourname)
+let mytall = prompt ('how long I am');
+mytall=parseInt(mytall);
+console.log(mytall, typeof mytall);
+for (let i = 1 ; i <4 ; i++ ){
+    console.log(mytall, typeof mytall);
+    if (mytall == 160){
+      alert ("GREAT you will have an extra point");
+      scour++;
+      break;
+    }else if (mytall>170){
+        mytall =prompt('how long Iam?')
+        alert("too high , try again")
+   
+
+}
+else if (mytall <150){
+    alert("too low, try again ")
+    mytall =prompt('how long Iam?')
+}
+    else{
+      alert('wrong answer try again');
+      mytall =prompt('how long Iam?')
+  
+      }     
+  }
+
+
+  alert("my tall is 160");
+  let flag = false;
+
+  let myluckynum = ['8','7','2'];
+  let ans = prompt ('what is my lucky numbers?');
+  for(let j=0;j<6;j++){
+    
+
+      for (let i =0;i<myluckynum.length;i++){
+          if (ans ===myluckynum[i]) {
+              alert('my lucky numbers is '+ myluckynum);
+              scour++;
+           flag =true ;
+
+              
+          }
+          
+           
+         
+          
+      }if (flag===true){
+        break;
+
+      }
+      ans =prompt('try again what is my lucky numbers?');
+     
+  }
+
+  console.log(myluckynum.includes('2'));
+  console.log(myluckynum.includes('9'));
+  
+  
+
+
+
+ 
+alert("nice to meet you-" +yourname+"your score:"+ scour)
