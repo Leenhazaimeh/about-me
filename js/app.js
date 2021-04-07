@@ -185,6 +185,7 @@ function question7 () {
 //   console.log(myluckynum.includes('9'));
   
   question1();
+  question2();
 
 
 
