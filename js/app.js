@@ -190,6 +190,8 @@ function question7 () {
   question4();
   question5();
   question6();
+  question7();
+
 
 
 
