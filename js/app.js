@@ -189,6 +189,8 @@ function question7 () {
   question3();
   question4();
   question5();
+  question6();
+
 
 
 
