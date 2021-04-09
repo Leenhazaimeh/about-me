@@ -146,9 +146,9 @@ else if (mytall <150){
 
 
   alert("my tall is 160");
-  let flag = false;
-
+  
 }
+let flag = false;
 
 function question7 () {
     let myluckynum = ['8','7','2'];
@@ -198,4 +198,4 @@ function question7 () {
 
 
  
-alert("nice to meet you-" +yourname+"your score:"+ scour)
+alert("nice to meet you-" +yourname+"your score:"+ scour);
