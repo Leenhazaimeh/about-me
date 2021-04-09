@@ -198,4 +198,4 @@ function question7 () {
 
 
  
-alert("nice to meet you-" +yourname+"your score:"+ scour);
+alert("nice to meet you-" +yourname+"your score   :"+ scour);
