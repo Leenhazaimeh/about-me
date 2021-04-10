@@ -2,7 +2,7 @@
 
 alert ("Hello  ");
 let yourname =prompt("what is your name pleas?");
-//console.log("welcome"+ yourname);
+
 alert ("welcome _"+ yourname);
 
 alert ("let me tell you about who I am....by gussing game :)");
@@ -12,7 +12,7 @@ let scour =0;
 
 function question1 (){
     let answer1 =prompt ("do you think I am older than you ?" );
-    //console.log("the answer for Q1 :"+ "my old is 26 ");
+    
     answer1=answer1.toLowerCase();
     switch (answer1) {
         case'yes':
@@ -32,7 +32,7 @@ function question1 (){
 
 function question2 (){
     let answer2 =prompt ("do you think I am singel?");
-//console.log("the answer for Q2 :"+ "I am marrid");
+
 
 answer2=answer2.toLowerCase();
 switch (answer2) {
@@ -56,7 +56,7 @@ switch (answer2) {
 function question3 () {
 
     let answer3 =prompt ("do you think I have a childs ? can you guss ?")
-    //console.log("the answer for Q3 :"+ "I have a childs");
+    
     answer3=answer3.toLowerCase();
     switch (answer3) {
         case 'no':
@@ -78,7 +78,7 @@ function question4() {
 
 
     let answer4 =prompt ("do you think they are girls?");
-    //console.log("the answer for Q4 :"+ "2 girls");
+    
     answer4=answer4.toLowerCase();
     switch (answer4) {
         case 'no':
@@ -97,7 +97,7 @@ function question4() {
 
 function question5(){
     let answer5 =prompt ("do you think I prefares shawerma on the pitza?")
-    //console.log("the answer for Q5s :"+ "i like both");
+    
     answer5=answer5.toLowerCase();
     switch (answer5) {
         case'yes':
@@ -181,8 +181,6 @@ function question7 () {
 
 
 
-//   console.log(myluckynum.includes('2'));
-//   console.log(myluckynum.includes('9'));
   
   question1();
   question2();
